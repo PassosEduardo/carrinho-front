@@ -1,0 +1,25 @@
+<div class="containertest">
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+        <div class="input_fields">
+            <h3>Bem-vindo à AdaZon</h3>
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput [type]="'email'" formControlName="email">
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label type="password">Senha</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" formControlName="Password">
+            </mat-form-field>
+            <button mat-raised-button color="primary" type="submit">Login</button>
+        </div>
+    </form>
+
+    <div class="other">
+    <h3>Ainda não possui uma conta?</h3>
+    <button mat-raised-button color="primary"  routerLink="/register" routerLinkactive="active">Cadastre-se</button>
+    </div>
+
+</div>

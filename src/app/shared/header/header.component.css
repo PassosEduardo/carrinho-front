@@ -1,0 +1,29 @@
+.header_container{
+    height: 10%;
+    background-color: rgb(27,28,35);
+    width: 100%;
+}
+
+.img_logo{
+    margin-top: 5px;
+    height: inherit;
+    margin-top: 25px;
+}
+.kart{
+    margin-top: 25px;
+    height: 80%;
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Kart_img{
+    height: inherit;
+    margin-bottom: 15px;
+}
+button{
+    background-color: inherit;
+    border: unset;
+    height:80%;
+}
